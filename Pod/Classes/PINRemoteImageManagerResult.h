@@ -16,7 +16,7 @@
 
 #import "PINRemoteImageMacros.h"
 #if USE_FLANIMATED_IMAGE
-#import <FLAnimatedImage/FLAnimatedImage.h>
+@import FLAnimatedImage;
 #endif
 
 /** How the image was fetched. */
