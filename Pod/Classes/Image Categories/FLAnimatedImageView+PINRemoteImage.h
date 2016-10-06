@@ -8,7 +8,7 @@
 
 #import "PINRemoteImageMacros.h"
 #if USE_FLANIMATED_IMAGE
-#import <FLAnimatedImage/FLAnimatedImageView.h>
+@import FLAnimatedImage;
 
 #import "PINRemoteImageCategoryManager.h"
 
